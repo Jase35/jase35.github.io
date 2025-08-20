@@ -4,9 +4,11 @@
 @tailwind utilities;
 
 :root{
+  --main-theme: rgb(0, 157, 212);
   --theme-font-color: rgb(255, 238, 214);
   --theme-brown: rgb(100, 50, 0);
   --theme-red: rgb(150, 0, 0);
+  --dark-tint: rgba(0, 0, 0, 0.25);
   --switch-time: 0.2s;
 }
 
@@ -15,6 +17,10 @@
   margin: 0 auto;
   padding: 0px;
   text-align: center;
+}
+
+.bg-main{
+  background-color: var(--main-theme);
 }
 
 .theme-font-color{
@@ -109,7 +115,7 @@
 .subnavlink:hover{
   text-decoration: none;
   color: var(--theme-font-color);
-  background-color: var(--color-emerald-700);
+  background-color: var(--dark-tint);
   border-color: transparent;
   border-radius: 0px;
 }
@@ -117,7 +123,7 @@
 .navlink:hover {
   color: var(--theme-font-color);
   text-decoration: none;
-  background-color: var(--color-emerald-700);
+  background-color: var(--dark-tint);
 }
 
 .navlink.active{

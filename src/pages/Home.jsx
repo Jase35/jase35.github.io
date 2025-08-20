@@ -1,3 +1,5 @@
+import infoData from '../assets/info.json';
+
 function Home(){
     let tab = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0";
     
@@ -7,7 +9,7 @@ function Home(){
                 <h1 className="section-header">About</h1>
                 <div className="flex gap-4">
                     <img className="w-2/5" src="/images/friley-frights.png" alt="profile" />
-                    <p className="w-3/5 text-start">{tab}I am currently persuing a Bachelor of Science degree in Software Engineering at Iowa State University, residing in Ames Iowa. I have years of experience programming even far prior to attending university.</p>
+                    <p className="w-3/5 text-start">{infoData.about}</p>
                 </div>
             </section>
             <section id="mission">
@@ -23,18 +25,14 @@ function Home(){
             </section>
             <section id="answers">
                 <h1 className="section-header">Questions & Answers</h1>
-                <div className="flex justify-between">
-                    <p>Would you be willing to relocate?</p>
-                    <p>Yes; it wouldn't be an issue.</p>
+                <div className="grid grid-cols-2 gap-4">
+                    {infoData.questions.map((item, idx) => (
+                        <div key={idx} className="shadow-md p-4">
+                            <p className="mb-2"><strong>{item.question}</strong></p>
+                            <p>{item.answer}</p>
+                        </div>
+                    ))}
                 </div>
-                <div className="flex justify-between">
-                    <p>Would you be able to do a mixture of physical work as well?</p>
-                    <p>Yes; I am in excellent health with particularly strong endurance.</p>
-                </div>
-            </section>
-            <section>
-                <h1 className="section-header">Miscellaneous</h1>
-                <p>{tab}I like to constantly be working on stuff. If I'm ever unoccupied with school or work at the moment, I will work on coding projects, compose music, or any sort of random thing.</p>
             </section>
         </div>
     );

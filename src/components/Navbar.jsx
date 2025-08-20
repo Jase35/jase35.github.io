@@ -4,7 +4,7 @@ import infoData from '../assets/info.json';
 
 function Navbar() {
   return (
-    <div className="fixed z-50 shadow-md flex justify-between absolute bg-emerald-600 w-full right-0 left-0 top-0 pl-2">
+    <div className="fixed z-50 shadow-md flex justify-between absolute bg-main w-full right-0 left-0 top-0 pl-2">
         <div>
             <NavLink to="/" className="head-text-theme absolute top-2 left-4">Jase A. Beaubien</NavLink>
         </div>
@@ -18,7 +18,7 @@ function Navbar() {
                     Home
                 </NavLink>
 
-                <ul className="absolute z-49 hidden group-hover:block bg-emerald-600 left-0 right-0">
+                <ul className="absolute z-49 hidden group-hover:block bg-main left-0 right-0">
                     <li>
                         <HashLink to="/#about" className="subnavlink">About</HashLink>
                     </li>
@@ -38,7 +38,7 @@ function Navbar() {
                     Experience
                 </NavLink>
 
-                <ul className="absolute z-49 hidden group-hover:block bg-emerald-600 left-0 right-0">
+                <ul className="absolute z-49 hidden group-hover:block bg-main left-0 right-0">
                     <li>
                         <HashLink to="/experience#projects" className="subnavlink">Projects</HashLink>
                     </li>
@@ -61,7 +61,7 @@ function Navbar() {
                     Contact
                 </NavLink>
 
-                <ul className="absolute z-49 hidden group-hover:block bg-emerald-600 left-0 right-0">
+                <ul className="absolute z-49 hidden group-hover:block bg-main left-0 right-0">
                     <li>
                         <button className="subnavlink" onClick={() => window.open('mailto:' + infoData.email, '_blank', 'noopener,noreferrer')}>
                             Email Now

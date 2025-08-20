@@ -54,8 +54,18 @@ function Projects(){
                 <h1 className="section-header">Employment</h1>
                 {experienceData.employment.map((item, idx) => (
                     <div key={idx}>
-                        <h3>{item.title}</h3>
-                        <p>{item.description}</p>
+                        {idx > 0 && (
+                            <hr className="mt-2 mb-2 border-dashed"/>
+                        )}
+                        <div>
+                            <div className="flex justify-between">
+                                <h3><strong>{item.title}</strong> - {item.company} at {item.location}</h3>
+                                <p>{item.date}</p>
+                            </div>
+                            <div className="text-start">
+                                <p>{item.description}</p>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </section>
@@ -64,8 +74,18 @@ function Projects(){
                 <h1 className="section-header">Extracurriculars</h1>
                 {experienceData.extracurriculars.map((item, idx) => (
                     <div key={idx}>
-                        <h3>{item.activity}</h3>
-                        <p>{item.date}</p>
+                        {idx > 0 && (
+                            <hr className="mt-2 mb-2 border-dashed"/>
+                        )}
+                        <div>
+                            <div className="flex justify-between">
+                                <h3><strong>{item.activity}</strong></h3>
+                                <p>{item.date}</p>
+                            </div>
+                            <div className="text-start">
+                                <p>{item.description}</p>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </section>

@@ -1,4 +1,16 @@
 {
     "email": "jaseb@iastate.edu",
-    "mobile": "641-640-5244"
+    "mobile": "641-640-5244",
+    "about": "I am currently persuing a Bachelor of Science degree in Software Engineering at Iowa State University, residing in Ames Iowa. I have years of experience programming even far prior to attending university.",
+    "mission": "",
+    "questions": [
+        {
+            "question": "Would you be willing to relocate?",
+            "answer": "Yes"
+        },
+        {
+            "question": "Are you able to do physical hands-on work?",
+            "answer": "Yes"
+        }
+    ]
 }

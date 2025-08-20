@@ -4,7 +4,7 @@
             "company": "Fareway Meat & Grocery",
             "location": "Iowa Falls, IA",
             "title": "Floor Clerk",
-            "description": "",
+            "description": "abcdefg",
             "date": "November 2021 - Present"
         }
     ],
@@ -24,7 +24,12 @@
         {
             "activity": "Varsity Cross Country",
             "date": "2019 - 2022",
-            "description": ""
+            "description": "abcdefg"
+        },
+        {
+            "activity": "Varsity Cross Country",
+            "date": "2019 - 2022",
+            "description": "abcdefg"
         }
     ],
     "projects": [
