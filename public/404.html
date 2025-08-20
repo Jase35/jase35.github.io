@@ -6,8 +6,10 @@
 </head>
 <body>
   <script>
-    history.replaceState(null, '', '/');
-    document.location.href = '/';
+    if (window.location.hostname !== 'localhost' && window.location.pathname !== '/index.html') {
+      history.replaceState(null, '', '/');
+      window.location.href = '/index.html';
+    }
   </script>
 </body>
 </html>
