@@ -1,0 +1,104 @@
+{
+    "employment": [
+        {
+            "company": "Fareway Meat & Grocery",
+            "location": "Iowa Falls, IA",
+            "title": "Floor Clerk",
+            "description": "",
+            "date": "November 2021 - Present"
+        }
+    ],
+    "education": [
+        {
+            "school": "Iowa Falls-Alden High School",
+            "certificate": "Diploma",
+            "graduation": "2023"
+        },
+        {
+            "school": "Iowa State University",
+            "certificate": "Bachelor of Science in Software Engineering",
+            "graduation": "Projected 2027"
+        }
+    ],
+    "extracurriculars": [
+        {
+            "activity": "Varsity Cross Country",
+            "date": "2019 - 2022",
+            "description": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "SE 309 Project",
+            "description": "I was the backend developer",
+            "technologies": ["Java", "Spring Boot", "SQL"],
+            "images": [
+                {
+                    "source": "",
+                    "description": ""
+                }
+            ],
+            "date": "January - May 2025"
+        },
+        {
+            "title": "Parody Horror Game",
+            "description": "Developed for SE 186 at Iowa State.",
+            "technologies": ["C#", "Unity"],
+            "images": [
+                {
+                    "source": "friley-frights.png",
+                    "description": "Hallway"
+                }
+            ],
+            "date": "January - May 2024"
+        },
+        {
+            "title": "Artificial Intelligence Interface",
+            "description": "",
+            "technologies": ["Java", "Spring Boot", "AI", "Automation"],
+            "images": [
+                {
+                    "source": "",
+                    "description": ""
+                }
+            ],
+            "date": "August 2025"
+        },
+        {
+            "title": "3D Game Engine",
+            "description": "Made via the Light-Weight Java Game Library.",
+            "technologies": ["Java", "OOP", "Advanced Geometry"],
+            "images": [
+                {
+                    "source": "",
+                    "description": ""
+                }
+            ],
+            "date": "June 2025 - Present"
+        },
+        {
+            "title": "Personal Site",
+            "description": "Made via React.",
+            "technologies": ["React", "HTML", "Javascript", "CSS"],
+            "images": [
+                {
+                    "source": "",
+                    "description": ""
+                }
+            ],
+            "date": "August 2025"
+        },
+        {
+            "title": "Experimental Social App",
+            "description": "",
+            "technologies": ["Security", "Spring Boot", "React Native"],
+            "images": [
+                {
+                    "source": "",
+                    "description": ""
+                }
+            ],
+            "date": "May 2025"
+        }
+    ]
+}
