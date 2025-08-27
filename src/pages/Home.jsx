@@ -2,6 +2,10 @@ import infoData from '../assets/info.json';
 
 function Home(){
     let tab = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0";
+
+    /*<p>{tab}Industriousness is the axiom of my work ethic. From this stems convictions for excellency.</p>
+                        <p>{tab}I strive to maximize the higher productivity of labor within any group dynamic, asking for the personal agency of each and every member.</p>
+                        <p>{tab}Time is of great value to me, so I make the most of it. I reject the notion that quality and speed are entirely mutually exclusive. I maintain high quality of work with reverence to time constraints.</p>*/
     
     return(
         <div className="space-y-4">
@@ -16,9 +20,7 @@ function Home(){
                 <h1 className="section-header">Mission Statement</h1>
                 <div className="flex gap-4">
                     <div className="w-3/5 text-start">
-                        <p>{tab}Industriousness is the axiom of my work ethic. From this stems convictions for excellency.</p>
-                        <p>{tab}I strive to maximize the higher productivity of labor within any group dynamic, asking for the personal agency of each and every member.</p>
-                        <p>{tab}Time is of great value to me, so I make the most of it. I reject the notion that quality and speed are entirely mutually exclusive. I maintain high quality of work with reverence to time constraints.</p>
+                        <p>To do.</p>
                     </div>
                     <img className="w-2/5" src="/images/friley-frights.png" alt="profile" />
                 </div>
