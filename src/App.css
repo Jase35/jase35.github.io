@@ -57,6 +57,12 @@
   border: 2px dashed var(--theme-brown);
 }
 
+@media (max-width: 1280px) {
+  .section-header{
+    font-size: large;
+  }
+}
+
 .section-header{
   width: 100%;
   font-family: 'Copperplate Gothic Light';
@@ -76,7 +82,6 @@
 .head-text-theme{
   font-family: 'Copperplate Gothic Bold';
   color: var(--theme-font-color);
-  font-size: xx-large;
 }
 
 .head-text-theme:hover{
@@ -88,7 +93,6 @@
   font-family: 'Copperplate Gothic Light';
   color: var(--theme-font-color);
   text-decoration: none;
-  font-size: xx-large;
   transition: background-color var(--switch-time) ease, color var(--switch-time) ease;
   display: inline-block;
   padding-top: 8px;
