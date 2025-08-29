@@ -27,7 +27,7 @@ function Home(){
             </section>
             <section id="answers">
                 <h1 className="section-header">Questions & Answers</h1>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="xl:grid xl:grid-cols-2 gap-4">
                     {infoData.questions.map((item, idx) => (
                         <div key={idx} className="shadow-md p-4">
                             <p className="mb-2"><strong>{item.question}</strong></p>

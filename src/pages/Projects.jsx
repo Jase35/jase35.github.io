@@ -7,7 +7,7 @@ function Projects(){
             <section id="projects">
                 <h1 className="section-header">Projects</h1>
                 <p className="mb-4">Click any card for additional information.</p>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="xl:grid xl:grid-cols-2 gap-4">
                     {experienceData.projects.map((item, idx) => (
                         <NavLink to={`/project/${idx}`} key={idx} className="project-card !shadow-md !p-3 !rounded-none">
                             <div className="relative">
