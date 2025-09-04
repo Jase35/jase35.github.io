@@ -6,11 +6,11 @@
     "questions": [
         {
             "question": "Would you be willing to relocate?",
-            "answer": "Yes"
+            "answer": "Yes, I would be able to relocate to practically anywhere."
         },
         {
-            "question": "Are you able to do physical hands-on work?",
-            "answer": "Yes"
+            "question": "Are you able to also do physical hands-on work?",
+            "answer": "Yes, I am in excellent health and can easily find enjoyment in physical work."
         }
     ]
 }

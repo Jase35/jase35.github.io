@@ -10,7 +10,7 @@ function App() {
  return (
     <div>
       <Navbar />
-      <div className="absolute top-20 left-2 right-2 xl:left-50 xl:right-50">
+      <div className="absolute top-15 left-2 right-2 xl:left-50 xl:right-50">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Projects />} />

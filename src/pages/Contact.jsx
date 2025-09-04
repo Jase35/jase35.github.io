@@ -1,7 +1,7 @@
 import infoData from '../assets/info.json';
 
 function Contact(){
-    let sectionClass = "flex justify-between !p-12 text-3xl";
+    let sectionClass = "xl:flex xl:justify-between xl:!p-12 text-3xl";
 
     const handleCopy = (text) => {
         navigator.clipboard.writeText(text);

@@ -9,9 +9,9 @@ function ProjectDetail(){
     if (!project) return <div>Project not found</div>;
 
     return(
-        <section className="flex justify-between gap-4">
-            <div className="w-3/5">
-                <h1 className="section-header !text-3xl !mb-2">{project.title}</h1>
+        <section className="flex flex-col xl:flex-row justify-between gap-4">
+            <div className="w-auto xl:w-3/5">
+                <h1 className="section-header texl-xl xl:!text-3xl !mb-2">{project.title}</h1>
                 <div className="flex gap-2 justify-between text-xl">
                     <div className="flex gap-2 mb-4">
                         {project.technologies.map((item, idx) => (
@@ -20,11 +20,11 @@ function ProjectDetail(){
                     </div>
                     <p>{project.date}</p>
                 </div>
-                <div className="flex justify-start">
+                <div className="flex justify-start text-start">
                     <p>{project.description}</p>
                 </div>
             </div>
-            <div className="w-2/5">
+            <div className="w-auto xl:w-2/5">
                 {project.images.map((item, idx) => (
                     <div key={idx} className="p-2 bg-black/15 shadow-md">
                         <img src={`/images/${item.source}`} alt={item.description} />

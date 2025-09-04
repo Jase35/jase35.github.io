@@ -88,6 +88,17 @@
   color: var(--theme-font-color);
 }
 
+.navlink-text{
+  font-family: 'Copperplate Gothic Light';
+  color: var(--theme-font-color);
+  text-decoration: none;
+}
+
+.navlink-text:hover{
+  text-decoration: none;
+  color: var(--theme-font-color);
+}
+
 .navlink{
   background-color: transparent;
   font-family: 'Copperplate Gothic Light';
@@ -95,10 +106,6 @@
   text-decoration: none;
   transition: background-color var(--switch-time) ease, color var(--switch-time) ease;
   display: inline-block;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .subnavlink{

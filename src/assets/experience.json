@@ -4,7 +4,7 @@
             "company": "Fareway Meat & Grocery",
             "location": "Iowa Falls, IA",
             "title": "Floor Clerk",
-            "description": "abcdefg",
+            "description": "Responsibilities involved stocking shelves, store maintanence, and customer service.",
             "date": "November 2021 - Present"
         }
     ],
@@ -24,19 +24,14 @@
         {
             "activity": "Varsity Cross Country",
             "date": "2019 - 2022",
-            "description": "abcdefg"
-        },
-        {
-            "activity": "Varsity Cross Country",
-            "date": "2019 - 2022",
-            "description": "abcdefg"
+            "description": "I was the top runner my entire time as an upperclassman."
         }
     ],
     "projects": [
         {
-            "title": "SE 309 Project",
-            "description": "I was the backend developer",
-            "technologies": ["Java", "Spring Boot", "SQL"],
+            "title": "Goods & Services App",
+            "description": "This was developed for SE 309 at Iowa State, a class where groups of four are divided into frontend and backend developers to make an app. My group worked on an app for selling goods and services, and I was a backend developer. Me and the frontend developers coordinated well, always communicating specifications and time contraints. I also did the backend well ahead of time so the frontend could test easily. However, the other backend student unfortunately didn't contribute anything to the project despite our best efforts to communicate with him, leaving me with double the work. I received extra credit from the professor for dealing with the situation well. Aside from that, the process was very smooth due to the rest of us being consistent and communicating well.",
+            "technologies": ["Java", "Spring Boot", "SQL", "Git"],
             "images": [
                 {
                     "source": "",
@@ -47,8 +42,8 @@
         },
         {
             "title": "Parody Horror Game",
-            "description": "Developed for SE 186 at Iowa State.",
-            "technologies": ["C#", "Unity"],
+            "description": "This was developed for SE 186 at Iowa State, a class intended to teach Git. One of the dorms at Iowa State, Friley, is known for being a confusing structure. This game was made to parody it by randomizing rooms that are out of the player's view while a monster tries to find them. I was personally tasked with programming the algorithms, such as room generation, monster pathfinding, and monster spawning.",
+            "technologies": ["C#", "Unity", "Git"],
             "images": [
                 {
                     "source": "friley-frights.png",
@@ -59,7 +54,7 @@
         },
         {
             "title": "Artificial Intelligence Interface",
-            "description": "",
+            "description": "A Java-based interface to format input and output data for a localized language model. The model's system prompt tells it how to interpret and format data, as well as to adhere to ethical standards. The Java program supports a wide variety of applications, both virtual and cyber-physical. For one test, I had a microphone connected to a Raspberry Pi, which communicated wirelessly with the AI via a web socket. When I verbally told it to send a message to a certain server on Discord, it did exactly so. Or, I could tell it to pull up information on something, and it would open a semi-automated browser on my device and open a website with relevant data. The project used a variety of libraries and APIs, such as Spring Boot, Selenium, Discord Java API, et cetera.",
             "technologies": ["Java", "Spring Boot", "AI", "Automation"],
             "images": [
                 {
@@ -71,7 +66,7 @@
         },
         {
             "title": "3D Game Engine",
-            "description": "Made via the Light-Weight Java Game Library.",
+            "description": "This project is a work in progress. It's mostly complete, but has issues with 3D model armatures that must be fixed to use those features. It uses a lot of polymorphism and geometry.",
             "technologies": ["Java", "OOP", "Advanced Geometry"],
             "images": [
                 {
@@ -83,7 +78,7 @@
         },
         {
             "title": "Personal Site",
-            "description": "Made via React.",
+            "description": "The website you're looking at right now. It was developed using React.",
             "technologies": ["React", "HTML", "Javascript", "CSS"],
             "images": [
                 {
@@ -95,7 +90,7 @@
         },
         {
             "title": "Experimental Social App",
-            "description": "",
+            "description": "An experimental fullstack project with security. It uses Spring Boot with Spring Security and a JWT authentication system. For account creation and password resetting, it emails a six-digit verification code to the user. React Native was chosen for frontend development due to its compatibility with web, iOS, and Android. Overall this endeavor was simply to create a secure and versatile framework to gain experience or use in future projects.",
             "technologies": ["Security", "Spring Boot", "React Native"],
             "images": [
                 {

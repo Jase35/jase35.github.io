@@ -59,10 +59,11 @@ function Projects(){
                         )}
                         <div>
                             <div className="flex justify-between">
-                                <h3><strong>{item.title}</strong> - {item.company} at {item.location}</h3>
+                                <h3><strong>{item.title}</strong></h3>
                                 <p>{item.date}</p>
                             </div>
                             <div className="text-start">
+                                <h3>{item.company} at {item.location}</h3>
                                 <p>{item.description}</p>
                             </div>
                         </div>

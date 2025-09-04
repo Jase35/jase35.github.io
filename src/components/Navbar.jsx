@@ -4,15 +4,15 @@ import infoData from '../assets/info.json';
 
 function Navbar() {
   return (
-    <div className="fixed z-50 shadow-md flex flex-col xl:flex-row xl:justify-between absolute bg-main w-full right-0 left-0 top-0 pl-2">
+    <div className="fixed z-50 shadow-md flex flex-col xl:flex-row xl:justify-between absolute bg-main w-full right-0 left-0 top-0 xl:pl-2">
         <div>
-            <NavLink to="/" className="head-text-theme text-lg xl:text-4xl text-center xl:absolute top-2 left-4">Jase A. Beaubien</NavLink>
+            <NavLink to="/" className="head-text-theme text-lg xl:text-4xl text-center">Jase Beaubien</NavLink>
         </div>
         <nav className="justify-center items-center w-full xl:w-auto">
             <ul style={{ listStyle: 'none', display: 'flex', gap: '0px' }} className="justify-between xl:justify-center xl:items-center">
-                <li className="relative group">
+                <li className="relative group m-0 !p-0 h-auto w-1/3 xl:w-auto navlink">
                     <NavLink
-                        className="navlink text-sm xl:text-4xl"
+                        className="navlink-text !w-full text-sm xl:text-4xl"
                         to="/"
                     >
                         Home
@@ -30,9 +30,9 @@ function Navbar() {
                         </li>
                     </ul>
                 </li>
-                <li className="relative group">
+                <li className="relative group w-1/3 xl:w-auto navlink">
                     <NavLink
-                        className="navlink text-sm xl:text-4xl"
+                        className="navlink-text text-sm xl:text-4xl"
                         to="/experience"
                     >
                         Experience
@@ -53,9 +53,9 @@ function Navbar() {
                         </li>
                     </ul>
                 </li>
-                <li className="relative group">
+                <li className="relative group w-1/3 xl:w-auto navlink">
                     <NavLink
-                        className="navlink text-sm xl:text-4xl"
+                        className="navlink-text text-sm xl:text-4xl"
                         to="/contact"
                     >
                         Contact
