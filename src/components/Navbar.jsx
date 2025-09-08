@@ -12,7 +12,7 @@ function Navbar() {
                 to="/"
             >
                 Home
-                <ul className="absolute z-49 hidden xl:group-hover:block bg-theme-alt left-0 right-0 mt-2">
+                <ul className="absolute z-49 hidden xl:group-hover:block bg-theme-red left-0 right-0 mt-2">
                     <li>
                         <HashLink to="/#about" className="subnavlink">About</HashLink>
                     </li>
@@ -30,7 +30,7 @@ function Navbar() {
                 to="/experience"
             >
                 Experience
-                <ul className="absolute z-49 hidden xl:group-hover:block bg-main left-0 right-0 mt-2">
+                <ul className="absolute z-49 hidden xl:group-hover:block bg-theme-red left-0 right-0 mt-2">
                     <li>
                         <HashLink to="/experience#projects" className="subnavlink">Projects</HashLink>
                     </li>
@@ -51,7 +51,7 @@ function Navbar() {
                 to="/contact"
             >
                 Contact
-                <ul className="absolute z-49 hidden xl:group-hover:block bg-main left-0 right-0 mt-2">
+                <ul className="absolute z-49 hidden xl:group-hover:block bg-theme-red left-0 right-0 mt-2">
                     <li>
                         <button className="subnavlink" onClick={() => window.open('mailto:' + infoData.email, '_blank', 'noopener,noreferrer')}>
                             Email Now

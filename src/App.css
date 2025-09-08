@@ -11,6 +11,12 @@
   --dark-tint: rgba(0, 0, 0, 0.25);
   --switch-time: 0.2s;
   --alternate-theme: rgb(0, 164, 186);
+  --theme-purple: rgb(147, 0, 196);
+}
+
+@font-face {
+  font-family: 'forest';
+  src: url('./assets/fonts/forest.ttf') format('truetype');
 }
 
 #root {
@@ -66,11 +72,32 @@
   .section-header{
     font-size: large;
   }
+
+  .navlink:hover {
+    color: var(--theme-font-color);
+    text-decoration: none;
+    background-color: var(--dark-tint);
+  }
+}
+
+.navlink:hover {
+  color: var(--theme-font-color);
+  text-decoration: none;
+  background-color: var(--theme-purple);
+}
+
+.bg-theme-red{
+  background-color: var(--theme-red);
+}
+
+.bg-theme-purple{
+  background-color: var(--theme-purple);
 }
 
 .section-header{
   width: 100%;
-  font-family: 'Copperplate Gothic Light';
+  /*font-family: 'Copperplate Gothic Light';*/
+  font-family: 'forest', serif;
   color: var(--theme-font-color);
   background-color: var(--theme-brown);
   margin-bottom: 16px;
@@ -85,7 +112,8 @@
 }
 
 .head-text-theme{
-  font-family: 'Copperplate Gothic Bold';
+  /*font-family: 'Copperplate Gothic Bold';*/
+  font-family: 'forest', serif;
   color: var(--theme-font-color);
 }
 
@@ -93,20 +121,10 @@
   color: var(--theme-font-color);
 }
 
-.navlink-text{
-  font-family: 'Copperplate Gothic Light';
-  color: var(--theme-font-color);
-  text-decoration: none;
-}
-
-.navlink-text:hover{
-  text-decoration: none;
-  color: var(--theme-font-color);
-}
-
 .navlink{
   background-color: transparent;
-  font-family: 'Copperplate Gothic Light';
+  /*font-family: 'Copperplate Gothic Light';*/
+  font-family: 'forest', serif;
   color: var(--theme-font-color);
   text-decoration: none;
   transition: background-color var(--switch-time) ease, color var(--switch-time) ease;
@@ -133,12 +151,6 @@
   background-color: var(--dark-tint);
   border-color: transparent;
   border-radius: 0px;
-}
-
-.navlink:hover {
-  color: var(--theme-font-color);
-  text-decoration: none;
-  background-color: var(--dark-tint);
 }
 
 .navlink.active{
