@@ -10,6 +10,7 @@
   --theme-red: rgb(150, 0, 0);
   --dark-tint: rgba(0, 0, 0, 0.25);
   --switch-time: 0.2s;
+  --alternate-theme: rgb(0, 164, 186);
 }
 
 #root {
@@ -21,6 +22,10 @@
 
 .bg-main{
   background-color: var(--main-theme);
+}
+
+.bg-theme-alt{
+  background-color: var(--alternate-theme);
 }
 
 .theme-font-color{
@@ -105,7 +110,6 @@
   color: var(--theme-font-color);
   text-decoration: none;
   transition: background-color var(--switch-time) ease, color var(--switch-time) ease;
-  display: inline-block;
 }
 
 .subnavlink{
@@ -113,13 +117,13 @@
   color: var(--theme-font-color);
   text-decoration: none;
   background-color: transparent;
-  font-size: x-large;
+  font-size: large;
   width: 100%;
   display: block;
   text-align: left;
   padding-left: 16px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   transition: background-color var(--switch-time) ease, color var(--switch-time) ease;
 }
 
