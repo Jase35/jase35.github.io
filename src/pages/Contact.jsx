@@ -12,7 +12,7 @@ function Contact(){
             <section className={sectionClass}>
                 <p><strong>Email Address</strong></p>
                 <div className="flex gap-4">
-                    <button className="contact-button" onClick={() => window.open('mailto:' + infoData.email, '_blank', 'noopener,noreferrer')}>
+                    <button className="contact-button text-lg xl:text-xs" onClick={() => window.open('mailto:' + infoData.email, '_blank', 'noopener,noreferrer')}>
                         Email
                     </button>
                     <p>{infoData.email}</p>

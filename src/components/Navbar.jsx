@@ -8,7 +8,7 @@ function Navbar() {
         <NavLink to="/" className="xl:p-2 head-text-theme text-lg xl:text-4xl text-center">Jase Beaubien</NavLink>
         <nav className="flex justify-between xl:justify-center items-center w-full xl:w-auto">
             <NavLink
-                className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-sm xl:text-4xl"
+                className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-lg xl:text-4xl"
                 to="/"
             >
                 Home
@@ -26,7 +26,7 @@ function Navbar() {
             </NavLink>
 
             <NavLink
-                className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-sm xl:text-4xl"
+                className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-lg xl:text-4xl"
                 to="/experience"
             >
                 Experience
@@ -47,7 +47,7 @@ function Navbar() {
             </NavLink>
 
             <NavLink
-                className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-sm xl:text-4xl"
+                className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-lg xl:text-4xl"
                 to="/contact"
             >
                 Contact
