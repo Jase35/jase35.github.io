@@ -75,14 +75,16 @@
   .navlink:hover {
     color: var(--theme-font-color);
     text-decoration: none;
-    background-color: var(--dark-tint);
+    background-color: transparent;
   }
 }
 
-.navlink:hover {
-  color: var(--theme-font-color);
-  text-decoration: none;
-  background-color: var(--theme-purple);
+@media (min-width: 1281px){
+  .navlink:hover {
+    color: var(--theme-font-color);
+    text-decoration: none;
+    background-color: var(--theme-purple);
+  }
 }
 
 .bg-theme-red{
