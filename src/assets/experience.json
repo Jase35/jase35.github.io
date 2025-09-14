@@ -34,8 +34,8 @@
             "technologies": ["Java", "Spring Boot", "SQL", "Git"],
             "images": [
                 {
-                    "source": "",
-                    "description": ""
+                    "source": "GSDiagram.png",
+                    "description": "Flow chart."
                 }
             ],
             "date": "January - May 2025"
@@ -47,7 +47,7 @@
             "images": [
                 {
                     "source": "friley-frights.png",
-                    "description": "Hallway"
+                    "description": "Hallway."
                 }
             ],
             "date": "January - May 2024"
@@ -70,8 +70,12 @@
             "technologies": ["Java", "OOP", "Advanced Geometry"],
             "images": [
                 {
-                    "source": "",
-                    "description": ""
+                    "source": "engine1.png",
+                    "description": "Some of the source code."
+                },
+                {
+                    "source": "engine2.png",
+                    "description": "The start screen."
                 }
             ],
             "date": "June 2025 - Present"
@@ -82,8 +86,8 @@
             "technologies": ["React", "HTML", "Javascript", "CSS"],
             "images": [
                 {
-                    "source": "",
-                    "description": ""
+                    "source": "personal.png",
+                    "description": "Some source code."
                 }
             ],
             "date": "August 2025"

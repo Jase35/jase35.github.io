@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import ScrollToTop from './ScrollToTop';
 import infoData from '../assets/info.json';
 
 function Navbar() {
@@ -7,6 +8,7 @@ function Navbar() {
     <div className="fixed z-50 shadow-md flex flex-col xl:flex-row xl:justify-between absolute bg-main w-full right-0 left-0 top-0 xl:pl-2">
         <NavLink to="/" className="xl:p-2 head-text-theme text-lg xl:text-4xl text-center">Jase Beaubien</NavLink>
         <nav className="flex justify-between xl:justify-center items-center w-full xl:w-auto">
+            <ScrollToTop />
             <NavLink
                 className="xl:p-2 xl:pl-4 xl:pr-4 relative group navlink w-1/3 xl:w-auto text-lg xl:text-4xl"
                 to="/"
