@@ -26,9 +26,14 @@ function ProjectDetail(){
             </div>
             <div className="w-auto xl:w-2/5">
                 {project.images.map((item, idx) => (
-                    <div key={idx} className="p-2 bg-black/15 shadow-md">
-                        <img src={`/images/${item.source}`} alt={item.description} />
-                        <p className="mt-2">Figure {parseInt(id, 10) + 1}.{idx + 1}: {item.description}</p>
+                    <div>
+                        {idx > 0 && (
+                            <div className="mt-4"/>
+                        )}
+                        <div key={idx} className="p-2 bg-black/15 shadow-md">
+                            <img src={`/images/${item.source}`} alt={item.description} />
+                            <p className="mt-2">Figure {parseInt(id, 10) + 1}.{idx + 1}: {item.description}</p>
+                        </div>
                     </div>
                 ))}
             </div>
