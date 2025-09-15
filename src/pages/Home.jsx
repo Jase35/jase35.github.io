@@ -17,13 +17,13 @@ function Home(){
                 <h1 className="section-header">About</h1>
                 <div className="flex gap-4">
                     <img className="hidden xl:block w-2/5" src="/images/face.png" alt="profile" />
-                    <p className="w-3/5 text-start">{infoData.about}</p>
+                    <p className="w-full xl:w-3/5 text-start">{infoData.about}</p>
                 </div>
             </section>
             <section id="mission">
                 <h1 className="section-header">Mission Statement</h1>
                 <div className="flex gap-4">
-                    <p className="w-3/5 text-start">{infoData.mission}</p>
+                    <p className="w-full xl:w-3/5 text-start">{infoData.mission}</p>
                     <img className="hidden xl:block w-2/5" src="/images/friley-frights.png" alt="profile" />
                 </div>
             </section>
