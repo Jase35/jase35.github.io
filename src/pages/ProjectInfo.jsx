@@ -15,10 +15,10 @@ function ProjectDetail(){
                 <div className="flex gap-2 justify-between text-xl">
                     <div className="flex gap-2 mb-4">
                         {project.technologies.map((item, idx) => (
-                            <p className="technology-tag !text-sm xl:!text-md" key={idx}>{item}</p>
+                            <p className="technology-tag !text-xs xl:!text-lg" key={idx}>{item}</p>
                         ))}
                     </div>
-                    <p className="!text-sm xl:!text-md">{project.date}</p>
+                    <p className="!text-xs xl:!text-lg">{project.date}</p>
                 </div>
                 <div className="flex justify-start text-start">
                     <p>{project.description}</p>
