@@ -1,5 +1,5 @@
 import './App.css'
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -11,12 +11,14 @@ function App() {
     <div>
       <Navbar />
       <div className="absolute top-14 xl:top-18 left-2 right-2 xl:left-50 xl:right-50">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/experience" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/project/:id" element={<ProjectInfo />} />
-        </Routes>
+        <HashRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/experience" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/project/:id" element={<ProjectInfo />} />
+          </Routes>
+        </HashRouter>
         <div className="mb-20" />
       </div>
     </div>
