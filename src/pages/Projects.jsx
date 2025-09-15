@@ -15,7 +15,7 @@ function Projects(){
                             )}
                             <NavLink to={`/project/${idx}`} key={idx} className="!shadow-md !rounded-none">
                                 <div className="relative">
-                                    <h3 className="z-10 absolute left-2 top-1 text-3xl text-white">{item.title}</h3>
+                                    <h3 className="z-10 absolute left-2 top-1 text-xl text-white">{item.title}</h3>
                                     <div className="absolute top-0 left-0 w-full h-1/4 pointer-events-none"
                                     style={{
                                         background: "linear-gradient(to bottom, black, transparent)"
