@@ -16,7 +16,7 @@ function Home(){
             <section id="about">
                 <h1 className="section-header">About</h1>
                 <div className="flex gap-4">
-                    <img className="hidden xl:block w-2/5" src="/images/face.png" alt="profile" />
+                    <img className="hidden xl:block w-2/5" src="/images/profile.png" alt="profile" />
                     <p className="w-full xl:w-3/5 text-start">{infoData.about}</p>
                 </div>
             </section>
@@ -24,7 +24,7 @@ function Home(){
                 <h1 className="section-header">Mission Statement</h1>
                 <div className="flex gap-4">
                     <p className="w-full xl:w-3/5 text-start">{infoData.mission}</p>
-                    <img className="hidden xl:block w-2/5" src="/images/friley-frights.png" alt="profile" />
+                    <img className="hidden xl:block w-2/5" src="/images/me-but-twelve.png" alt="profile" />
                 </div>
             </section>
             <section id="answers">

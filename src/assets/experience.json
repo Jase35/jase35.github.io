@@ -36,6 +36,14 @@
                 {
                     "source": "GSDiagram.png",
                     "description": "Flow chart."
+                },
+                {
+                    "source": "GS2.png",
+                    "description": "Login screens."
+                },
+                {
+                    "source": "GS1.png",
+                    "description": "Offer page (comparing light and dark mode)."
                 }
             ],
             "date": "January - May 2025"
@@ -58,8 +66,16 @@
             "technologies": ["Java", "Spring Boot", "AI", "Automation"],
             "images": [
                 {
-                    "source": "",
-                    "description": ""
+                    "source": "AI3.png",
+                    "description": "A basic response example."
+                },
+                {
+                    "source": "AI2.png",
+                    "description": "Clearly, the system prompt was well-made, as the AI refuses to violate ethics."
+                },
+                {
+                    "source": "AI.png",
+                    "description": "Artificial intelligence; truly incredible."
                 }
             ],
             "date": "August 2025"
@@ -98,8 +114,8 @@
             "technologies": ["Security", "Spring Boot", "React Native"],
             "images": [
                 {
-                    "source": "",
-                    "description": ""
+                    "source": "SocialApp.png",
+                    "description": "Code snippet."
                 }
             ],
             "date": "May 2025"
