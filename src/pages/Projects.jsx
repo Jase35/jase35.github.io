@@ -24,7 +24,7 @@ function Projects(){
                                     style={{
                                         background: "linear-gradient(to top, black, transparent)"
                                     }} />
-                                    <img src={`/images/${item.images[0].source}`} alt={item.title}/>
+                                    <img src={`/images/${item.images[0].source}`} alt={item.title} />
                                     <div className="absolute text-xl bottom-2 left-2 flex gap-2">
                                         {item.technologies.map((tech, techIdx) => (
                                             <p className="technology-tag" key={techIdx}>{tech}</p>
