@@ -26,6 +26,10 @@ function Contact(){
                     <p>{infoData.mobile}</p>
                 </div>
             </section>
+            <section className={sectionClass}>
+                <p><strong>LinkedIn</strong></p>
+                <a target="_blank" href="https://www.linkedin.com/in/jase-beaubien/">https://www.linkedin.com/in/jase-beaubien/</a>
+            </section>
         </div>
     );
 }
