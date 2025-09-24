@@ -11,6 +11,14 @@
         {
             "question": "Are you able to also do physical hands-on work?",
             "answer": "Yes, I am in excellent health and can easily find enjoyment in physical work."
+        },
+        {
+            "question": "Would you be willing to do/make stuff that's awesome?",
+            "answer": "Always."
+        },
+        {
+            "question": "Are you able to run 7 miles in 41 minutes and 50 seconds?",
+            "answer": "Yes."
         }
     ]
 }
