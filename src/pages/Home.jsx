@@ -2,29 +2,21 @@ import infoData from '../assets/info.json';
 
 function Home(){
     let tab = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0";
-
-    /*<section id="about">
-                <h1 className="section-header">About</h1>
-                <div className="flex gap-4">
-                    <img className="w-2/5" src="/images/friley-frights.png" alt="profile" />
-                    <p className="w-3/5 text-start">{infoData.about}</p>
-                </div>
-            </section>*/
     
     return(
         <div className="space-y-4">
             <section id="about">
                 <h1 className="section-header">About</h1>
-                <div className="flex gap-4">
-                    <img className="hidden xl:block w-2/5" src="/images/profile.png" alt="profile" />
+                <div className="flex gap-4 flex-col xl:flex-row">
+                    <img className="block xl:w-2/5" src="/images/profile.png" alt="profile" />
                     <p className="w-full xl:w-3/5 text-start">{infoData.about}</p>
                 </div>
             </section>
             <section id="mission">
                 <h1 className="section-header">Mission Statement</h1>
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-col xl:flex-row">
                     <p className="w-full xl:w-3/5 text-start">{infoData.mission}</p>
-                    <img className="hidden xl:block w-2/5" src="/images/me-but-twelve.png" alt="profile" />
+                    <img className="block xl:w-2/5" src="/images/me-but-twelve.png" alt="profile" />
                 </div>
             </section>
             <section id="answers">

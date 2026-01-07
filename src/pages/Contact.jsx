@@ -30,6 +30,10 @@ function Contact(){
                 <p><strong>LinkedIn</strong></p>
                 <a target="_blank" href="https://www.linkedin.com/in/jase-beaubien/">https://www.linkedin.com/in/jase-beaubien/</a>
             </section>
+            <section className={sectionClass}>
+                <p><strong>GitHub</strong> - Personal account (non-academic)</p>
+                <a target="_blank" href="https://github.com/Jase35">https://github.com/Jase35</a>
+            </section>
         </div>
     );
 }

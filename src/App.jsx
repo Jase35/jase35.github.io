@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import ProjectInfo from './pages/ProjectInfo';
 
 function App() {
- return (
+  return(
     <div>
       <Navbar />
       <div className="absolute top-14 xl:top-18 left-2 right-2 xl:left-50 xl:right-50">
