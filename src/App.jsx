@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import ProjectInfo from './pages/ProjectInfo';
+import Silly from './pages/Silly';
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
           <Route path="/experience" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project/:id" element={<ProjectInfo />} />
+          <Route path="/silly" element={<Silly />} />
         </Routes>
         <div className="mb-20" />
       </div>
