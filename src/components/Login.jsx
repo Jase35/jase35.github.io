@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../constants';
 
 function Login({ onLogin }) {
     const [username, setUsername] = useState('');
@@ -6,7 +7,7 @@ function Login({ onLogin }) {
 
     const attemptLog = async () => {
         try {
-            const response = await fetch('http://localhost:4000/user/self', {
+            const response = await fetch(API_BASE_URL + "/user/self", {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
@@ -25,7 +26,7 @@ function Login({ onLogin }) {
 
     const handleSubmit = async () => {
         try {
-            const response = await fetch('http://localhost:4000/user', {
+            const response = await fetch(API_BASE_URL + "/user", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
