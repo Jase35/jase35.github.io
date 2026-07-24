@@ -24,7 +24,11 @@ function Projects(){
                                     style={{
                                         background: "linear-gradient(to top, black, transparent)"
                                     }} />
-                                    <img src={`/images/${item.images[0].source}`} alt={item.title} />
+                                    {item.images.length > 0 ? (
+                                        <img src={`/images/${item.images[0].source}`} alt={item.title} />
+                                    ) : (
+                                        <div className="w-full aspect-video bg-black/25" />
+                                    )}
                                     <div className="absolute text-xl bottom-2 left-2 flex gap-2">
                                         {item.technologies.map((tech, techIdx) => (
                                             <p className="technology-tag" key={techIdx}>{tech}</p>

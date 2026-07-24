@@ -3,20 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  --color-theme: rgb(181, 7, 55);
+  --color-cream: rgb(230, 235, 199);
+  --color-pine: rgb(44, 61, 45);
+  --color-bronze: rgb(82, 66, 45);
+  --color-electric: rgb(31, 98, 161);
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+.font-cormorant {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 :root{
-  --main-theme: rgb(0, 157, 212);
-  --theme-font-color: rgb(255, 238, 214);
-  --theme-brown: rgb(100, 50, 0);
-  --theme-red: rgb(150, 0, 0);
   --dark-tint: rgba(0, 0, 0, 0.25);
   --switch-time: 0.2s;
   --alternate-theme: rgb(0, 164, 186);
-  --theme-purple: rgb(147, 0, 196);
-}
-
-@font-face {
-  font-family: 'forest';
-  src: url('./assets/fonts/forest.ttf') format('truetype');
 }
 
 #root {
@@ -27,7 +32,7 @@
 }
 
 .bg-main{
-  background-color: var(--main-theme);
+  background-color: var(--color-theme);
 }
 
 .bg-theme-alt{
@@ -35,7 +40,7 @@
 }
 
 .theme-font-color{
-  color: var(--theme-font-color);
+  color: var(--color-cream);
 }
 
 .contact-button{
@@ -65,7 +70,7 @@
 .project-card:hover{
   color: black;
   text-decoration: none;
-  border: 2px dashed var(--theme-brown);
+  border: 2px dashed var(--color-pine);
 }
 
 @media (max-width: 1280px) {
@@ -74,7 +79,7 @@
   }
 
   .navlink:hover {
-    color: var(--theme-font-color);
+    color: var(--color-cream);
     text-decoration: none;
     background-color: transparent;
   }
@@ -82,32 +87,32 @@
 
 @media (min-width: 1281px){
   .navlink:hover {
-    color: var(--theme-font-color);
+    color: var(--color-cream);
     text-decoration: none;
-    background-color: var(--theme-purple);
+    background-color: var(--color-bronze);
   }
 }
 
 .bg-theme-red{
-  background-color: var(--theme-red);
+  background-color: var(--color-pine);
 }
 
 .bg-theme-purple{
-  background-color: var(--theme-purple);
+  background-color: var(--color-bronze);
 }
 
 .section-header{
   width: 100%;
   /*font-family: 'Copperplate Gothic Light';*/
   font-family: 'forest', serif;
-  color: var(--theme-font-color);
-  background-color: var(--theme-brown);
+  color: var(--color-cream);
+  /*background-color: var(--color-pine);*/
   margin-bottom: 16px;
 }
 
 .technology-tag{
-  background-color: var(--theme-red);
-  color: white;
+  background-color: var(--color-electric);
+  color: var(--color-cream);
   border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
@@ -117,25 +122,25 @@
 .head-text-theme{
   /*font-family: 'Copperplate Gothic Bold';*/
   font-family: 'forest', serif;
-  color: var(--theme-font-color);
+  color: var(--color-cream);
 }
 
 .head-text-theme:hover{
-  color: var(--theme-font-color);
+  color: var(--color-cream);
 }
 
 .navlink{
   background-color: transparent;
   /*font-family: 'Copperplate Gothic Light';*/
   font-family: 'forest', serif;
-  color: var(--theme-font-color);
+  color: var(--color-cream);
   text-decoration: none;
   transition: background-color var(--switch-time) ease, color var(--switch-time) ease;
 }
 
 .subnavlink{
   padding: 4;
-  color: var(--theme-font-color);
+  color: var(--color-cream);
   text-decoration: none;
   background-color: transparent;
   font-size: large;
@@ -150,7 +155,7 @@
 
 .subnavlink:hover{
   text-decoration: none;
-  color: var(--theme-font-color);
+  color: var(--color-cream);
   background-color: var(--dark-tint);
   border-color: transparent;
   border-radius: 0px;

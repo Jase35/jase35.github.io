@@ -1,23 +1,30 @@
 {
     "employment": [
         {
+            "company": "Farmer's Mutual Hail",
+            "location": "West Des Moines, IA",
+            "title": "QA Automation Intern",
+            "description": "Wrote automated tests in Java with Selenium and did full-stack work on a hub for tracking tests.",
+            "date": "Summer 2026"
+        },
+        {
             "company": "Fareway Meat & Grocery",
             "location": "Iowa Falls, IA",
             "title": "Floor Clerk",
             "description": "Responsibilities involved stocking shelves, store maintanence, and customer service.",
-            "date": "November 2021 - Present"
+            "date": "November 2021 - March 2026"
         }
     ],
     "education": [
         {
-            "school": "Iowa Falls-Alden High School",
-            "certificate": "Diploma",
-            "graduation": "2023"
-        },
-        {
             "school": "Iowa State University",
             "certificate": "Bachelor of Science in Software Engineering",
             "graduation": "Projected 2027"
+        },
+        {
+            "school": "Iowa Falls-Alden High School",
+            "certificate": "Diploma",
+            "graduation": "2023"
         }
     ],
     "extracurriculars": [
@@ -28,6 +35,22 @@
         }
     ],
     "projects": [
+        {
+            "title": "3D Game Engine (C++)",
+            "description": "About 50x faster than the last attempt at a 3D engine because it avoids polymorphism like the plague. It uses an entity component system (ECS) - specifically from EnTT - to assign behaviors to game objects, which alone speeds it up by ~10x without using inheritance. The transform hierarchy is also designed in a cache-friendly manner.",
+            "technologies": ["C++", "Vulkan", "ECS", "Advanced Geometry"],
+            "images": [
+                {
+                    "source": "Vulkan1.jpg",
+                    "description": "Terrain generation. (Literally just overlapping Perlin noise at different offsets.)"
+                },
+                {
+                    "source": "Vulkan2.jpg",
+                    "description": "Lighting test."
+                }
+            ],
+            "date": "January 2026 - Present"
+        },
         {
             "title": "Goods & Services App",
             "description": "This was developed for SE 309 at Iowa State, a class where groups of four are divided into frontend and backend developers to make an app. My group worked on an app for selling goods and services, and I was a backend developer. Me and the frontend developers coordinated well, always communicating specifications and time contraints. I also did the backend well ahead of time so the frontend could test easily. However, the other backend student unfortunately didn't contribute anything to the project despite our best efforts to communicate with him, leaving me with double the work. I received extra credit from the professor for dealing with the situation well. Aside from that, the process was very smooth due to the rest of us being consistent and communicating well.",
@@ -61,6 +84,46 @@
             "date": "January - May 2024"
         },
         {
+            "title": "3D Game Engine (Java)",
+            "description": "A light 3D game engine made via Java. It has an inheritance-oriented behavior system, where extentions of a component class can be applied to any game object.",
+            "technologies": ["Java", "OpenGL", "OOP", "Advanced Geometry"],
+            "images": [
+                {
+                    "source": "engine1.png",
+                    "description": "Some of the source code."
+                },
+                {
+                    "source": "engine2.png",
+                    "description": "The start screen (I used a 3D model I made of my friend's head to test)."
+                }
+            ],
+            "date": "June 2025 - January 2026"
+        },
+        {
+            "title": "Personal Site",
+            "description": "The website you're looking at right now. It was developed using React.",
+            "technologies": ["React", "HTML", "Javascript", "CSS"],
+            "images": [
+                {
+                    "source": "personal.png",
+                    "description": "Some source code."
+                }
+            ],
+            "date": "August 2025 - Present"
+        },
+        {
+            "title": "Experimental Social App",
+            "description": "An experimental fullstack project with security. It uses Spring Boot with Spring Security and a JWT authentication system. For account creation and password resetting, it emails a six-digit verification code to the user. React Native was chosen for frontend development due to its compatibility with web, iOS, and Android. Overall this endeavor was simply to create a secure and versatile framework to gain experience or use in future projects.",
+            "technologies": ["Security", "Spring Boot", "React Native"],
+            "images": [
+                {
+                    "source": "SocialApp.png",
+                    "description": "Code snippet."
+                }
+            ],
+            "date": "May 2025"
+        },
+        {
             "title": "Artificial Intelligence Interface",
             "description": "A Java-based interface to format input and output data for a localized language model. The model's system prompt tells it how to interpret and format data, as well as to adhere to ethical standards. The Java program supports a wide variety of applications, both virtual and cyber-physical. For one test, I had a microphone connected to a Raspberry Pi, which communicated wirelessly with the AI via a web socket. When I verbally told it to send a message to a certain server on Discord, it did exactly so. Or, I could tell it to pull up information on something, and it would open a semi-automated browser on my device and open a website with relevant data. The project used a variety of libraries and APIs, such as Spring Boot, Selenium, Discord Java API, et cetera.",
             "technologies": ["Java", "Spring Boot", "AI", "Automation"],
@@ -79,46 +142,6 @@
                 }
             ],
             "date": "August 2025"
-        },
-        {
-            "title": "3D Game Engine",
-            "description": "This project is a work in progress. It's mostly complete, but has issues with 3D model armatures that must be fixed to use those features. It uses a lot of polymorphism and geometry.",
-            "technologies": ["Java", "OOP", "Advanced Geometry"],
-            "images": [
-                {
-                    "source": "engine1.png",
-                    "description": "Some of the source code."
-                },
-                {
-                    "source": "engine2.png",
-                    "description": "The start screen (I used a 3D model I made of my friend's head to test)."
-                }
-            ],
-            "date": "June 2025 - Present"
-        },
-        {
-            "title": "Personal Site",
-            "description": "The website you're looking at right now. It was developed using React.",
-            "technologies": ["React", "HTML", "Javascript", "CSS"],
-            "images": [
-                {
-                    "source": "personal.png",
-                    "description": "Some source code."
-                }
-            ],
-            "date": "August 2025"
-        },
-        {
-            "title": "Experimental Social App",
-            "description": "An experimental fullstack project with security. It uses Spring Boot with Spring Security and a JWT authentication system. For account creation and password resetting, it emails a six-digit verification code to the user. React Native was chosen for frontend development due to its compatibility with web, iOS, and Android. Overall this endeavor was simply to create a secure and versatile framework to gain experience or use in future projects.",
-            "technologies": ["Security", "Spring Boot", "React Native"],
-            "images": [
-                {
-                    "source": "SocialApp.png",
-                    "description": "Code snippet."
-                }
-            ],
-            "date": "May 2025"
         }
     ]
 }
